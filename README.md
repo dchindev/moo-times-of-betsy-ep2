@@ -7,10 +7,10 @@ In Development
 
 # Roadmap
 
-March 1 - March 8: Create script dialogue.
-March 9 - March 16: Illustrate character sprites and background.
-March 17 - March 25: Develop the game and include the assets.
-March 26 - March 29: Test the game on both Mac and Window platforms.
+- March 1 - March 8: Create script dialogue.
+- March 9 - March 16: Illustrate character sprites and background.
+- March 17 - March 25: Develop the game and include the assets.
+- March 26 - March 29: Test the game on both Mac and Window platforms.
 
 # Estimated date on VN game going live
 
