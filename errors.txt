@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scene5bad.rpy", line 5: expected statement.
+    return﻿
+           ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Fri Mar 20 17:33:59 2020
