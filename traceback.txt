@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scene5good.rpy", line 38, in script
+    with Fade(1.0)
+TypeError: Fade() takes at least 3 arguments (3 given)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scene5good.rpy", line 38, in script
+    with Fade(1.0)
+  File "/Applications/renpy-7.3.5-sdk/renpy/ast.py", line 1389, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "/Applications/renpy-7.3.5-sdk/renpy/exports.py", line 1601, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/Applications/renpy-7.3.5-sdk/renpy/display/core.py", line 2251, in do_with
+    clear=clear)
+  File "/Applications/renpy-7.3.5-sdk/renpy/display/core.py", line 2702, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "/Applications/renpy-7.3.5-sdk/renpy/display/core.py", line 3047, in interact_core
+    new_widget=layers_root)
+  File "/Applications/renpy-7.3.5-sdk/renpy/curry.py", line 43, in __call__
+    **dict(self.kwargs.items() + kwargs.items()))
+TypeError: Fade() takes at least 3 arguments (3 given)
+
+Darwin-19.3.0-x86_64-i386-64bit
+Ren'Py 7.3.5.606
+Moo Times Of Betsy: EP2 1.0
+Tue Mar 24 20:19:57 2020

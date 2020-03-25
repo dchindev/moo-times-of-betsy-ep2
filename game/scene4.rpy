@@ -1,38 +1,48 @@
 label scene4:
 
-    "﻿We were able to finish our grocery shopping and head home."
+    scene road_night
+    with fade
 
-    "Most of the time during the ride, we stayed silent."
+    betsynoside "﻿We were able to finish our grocery shopping and head home."
 
-    "Hearing the slight rustle of the paper bags as Missy drove back in a normal speed with every bump on the road, it made the ride back home less awkward."
+    betsynoside "Most of the time during the ride, we stayed silent."
 
-    "I don’t ever recall ever blacking out."
+    betsynoside "Hearing the slight rustle of the paper bags as Missy drove back in a normal speed with every bump on the road, it made the ride back home less awkward."
 
-    "Only time I did was when I was super tired from playing The Sims 4 that I fell asleep on the keyboard."
+    betsynoside "I don’t ever recall ever blacking out."
 
-    "Poor Mister and Missy had to tuck me to bed."
+    betsynoside "Only time I did was when I was super tired from playing The Sims 4 that I fell asleep on the keyboard."
 
-    "Mister and Missy..."
+    betsynoside "Poor Mister and Missy had to tuck me to bed."
 
-    "What will happen to them?"
+    betsynoside "Mister and Missy..."
 
-    "As I looked at the car window, I saw Mama Luna shining brightly on the night sky."
+    betsynoside "What will happen to them?"
 
-    "Her rays of light warmed me up. I said a prayer to Mama Luna in hopes that she’ll guide me to the right path."
+    betsynoside "As I looked at the car window, I saw Mama Luna shining brightly on the night sky."
 
-    "That maybe what I saw earlier on today wasn’t real...but perhaps a dream."
+    betsynoside "Her rays of light warmed me up. I said a prayer to Mama Luna in hopes that she’ll guide me to the right path."
 
-    "Within a few minutes, Missy parked the car and we arrived home at last."
+    betsynoside "That maybe what I saw earlier on today wasn’t real...but perhaps a dream."
 
-    "After the engine was shut, Mister and Missy proceeded to take the bags out of the car."
+    scene house_night
+    with dissolve
 
-    "I was about to pick one of the bags when Mister placed a gentle hand on my mitten hand."
+    betsynoside "Within a few minutes, Missy parked the car and we arrived home at last."
+
+    betsynoside "After the engine was shut, Mister and Missy proceeded to take the bags out of the car."
+
+    betsynoside "I was about to pick one of the bags when Mister placed a gentle hand on my mitten hand."
+
+    show mister_sad
 
     mister " Betsy, don’t push yourself."
 
-    betsy "Moo...but Mister, I want to help you and Missy."
+    betsy sad "Moo...but Mister, I want to help you and Missy."
 
-    "Mister chuckled."
+    show mister_content
+
+    betsynoside "Mister chuckled."
 
     mister "It’s okay to take some rest. You don’t need to help us out with the bags."
 
@@ -40,69 +50,94 @@ label scene4:
 
     mister "I’m making your favourite - cream of carrot soup!"
 
-    "I felt so happy when Mister told me that he’ll be cooking my favourite dish."
+    betsynoside "I felt so happy when Mister told me that he’ll be cooking my favourite dish."
 
-    mister "Ok mister! I’ll go inside, moo."
+    betsy happy "Ok mister! I’ll go inside, moo."
 
-    "We went inside to settle ourselves in."
+    betsynoside "We went inside to settle ourselves in."
 
-    "The living room was cozy and my favourite TV show was on."
+    scene livingroom
+    with dissolve
 
-    "I was able to grab some ice cream from the kitchen and proceeded to go sit on the couch and watch the show."
+    betsynoside "The living room was cozy and my favourite TV show was on."
 
-    "I guess there was nothing to worry about after today’s event."
+    betsynoside "I was able to grab some ice cream from the kitchen and proceeded to go sit on the couch and watch the show."
 
-    "Maybe it was my anxiety happening from the artwork I did."
+    betsynoside "I guess there was nothing to worry about after today’s event."
 
-    "I worked so hard on making the Tower card painting."
+    betsynoside "Maybe it was my anxiety happening from the artwork I did."
 
-    "I remember doing an art magic ritual where I shuffled the tarot cards and immediately, the Tower card flew out of my mitten hand."
+    betsynoside "I worked so hard on making the Tower card painting."
 
-    "I don’t know if this was a joke from the Universe to make a scary painting. But...I decided to go with it."
+    betsynoside "I remember doing an art magic ritual where I shuffled the tarot cards and immediately, the Tower card flew out of my mitten hand."
 
-    "After I ate my ice cream, I decided to go to the craft room where the Tower painting was placed on the easel."
+    betsynoside "I don’t know if this was a joke from the Universe to make a scary painting. But...I decided to go with it."
 
-    "There were a few paintbrushes hanging on the table and some color paint residue on the palette."
+    scene bedroom
+    with dissolve
 
-    "I stared at the Tower painting as I sat down in front of it."
+    betsynoside "After I ate my ice cream, I decided to go to the craft room where the Tower painting was placed on the easel."
 
-    "Looking at the lonely paintbrush on the floor, I picked it up and reluctantly started to finish painting on the canvas with the color palette nearby."
+    betsynoside "There were a few paintbrushes hanging on the table and some color paint residue on the palette."
 
-    "The more I started to paint, the more I felt a sense of uneasiness settling into my plushy stomach."
+    scene scene401
+    with dissolve
 
-    "I took a step back just to see the canvas."
+    betsynoside "I stared at the Tower painting as I sat down in front of it."
 
-    "The only thing that was missing were the thunderbolts and people falling off from the Tower, just as it’s shown on the actual card."
+    betsynoside "Looking at the lonely paintbrush on the floor, I picked it up and reluctantly started to finish painting on the canvas with the color palette nearby."
 
-    "Suddenly, I felt the room growing warmer than usual. Was the heat turned on my accident by Mister? The weather said it would be mild in the evening."
+    betsynoside "The more I started to paint, the more I felt a sense of uneasiness settling into my plushy stomach."
 
-    "I held my mitten hands on my head as I felt a dizzy sensation taken over me."
+    betsynoside "I took a step back just to see the canvas."
 
-    "I collapsed on the ground and heard the voice again. This time, it sounded more menacing than usual."
+    betsynoside "The only thing that was missing were the thunderbolts and people falling off from the Tower, just as it’s shown on the actual card."
 
-    "Evil me was back again with her nonsense."
+    scene bedroom
+    with dissolve
 
-    "I blinked and the entire room felt like a volcano, waiting to erupt."
+    betsynoside "Suddenly, I felt the room growing warmer than usual. Was the heat turned on my accident by Mister? The weather said it would be mild in the evening."
 
-    "There was an orange fiery glow that casted all over the room. If I didn’t know any better, I would say that the place might be set on fire."
+    betsynoside "I held my mitten hands on my head as I felt a dizzy sensation taken over me."
+
+    scene black
+    with fade
+
+    betsynoside "I collapsed on the ground and heard the voice again. This time, it sounded more menacing than usual."
+
+    betsynoside "Evil me was back again with her nonsense."
+
+    scene bedroom_orangeglow
+    with fade
+
+    betsynoside "I blinked and the entire room felt like a volcano, waiting to erupt."
+
+    betsynoside "There was an orange fiery glow that casted all over the room."
+
+    betsynoside "If I didn’t know any better, I would say that the place might be set on fire."
+
+    show evilbetsy_happy
 
     evilbetsy "You are right. The house is being set on fire."
 
-    betsy "MOO! YOU CAN’T DO THIS!"
+    betsy angry "MOO! YOU CAN’T DO THIS!"
+
+    scene scene402
+    with dissolve
 
     evilbetsy "Oh but I can. So long as you’re clutching to that fear of your past, you won’t see the daylight happening once I consume your soul."
 
     evilbetsy "You knew what you bargained for when you were selected to be part of the mall venue."
 
-    "I panicked for a bit as the thought of the house being consumed by fire, along with Mister and Missy in it made me sick to my stomach."
+    betsynoside "I panicked for a bit as the thought of the house being consumed by fire, along with Mister and Missy in it made me sick to my stomach."
 
-    "Why would she do this?"
+    betsynoside "Why would she do this?"
 
-    betsy "This is unfair on what you’re doing. Mister and Missy doesn’t deserve this!"
+    betsynoside "This is unfair on what you’re doing. Mister and Missy doesn’t deserve this!"
 
     evilbetsy "You’ll need to make a choice quickly. Speak the truth or forever hold your peace."
 
-    "What should I do?"
+    betsynoside "What should I do?"
 
     menu:
 
