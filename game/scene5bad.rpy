@@ -1,5 +1,8 @@
 label scene5bad:
 
+    stop music
+    play music "audio/bensound-evolution.mp3"
+
     scene bedroom_orangeglow
     with dissolve
 
@@ -32,3 +35,5 @@ label scene5bad:
     evilbetsy "These poor pathetic witches didn’t stand a chance MWAHAHAHAHAHAHAHAH"
 
     "{b}Bad Ending{/b}"
+
+    stop music

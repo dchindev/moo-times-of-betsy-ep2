@@ -14,9 +14,20 @@ image side betsy sad = "betsy_sad.PNG"
 image side betsy angry = "betsy_angry.PNG"
 image side betsy shock = "betsy_shock.PNG"
 
+image splash = "splashscreen.png"
+
+label splashscreen:
+    show splash with fade
+    pause
+    scene black with fade
+
+return
+
 
 label start:
 
+    # Start by playing some music.
+    play music "audio/bensound-sweet.mp3"
 
     scene bg
 
@@ -72,5 +83,7 @@ label start:
     with fade
 
     betsynoside "Not even my past."
+
+    stop music
 
     jump scene2

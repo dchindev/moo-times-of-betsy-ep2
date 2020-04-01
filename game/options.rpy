@@ -30,7 +30,7 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("This visual novel game was created during NaNoRenO2020."
-" Illustrations were created with Procreate. Visit RedLotusDesignz.com to view my other work!")
+" Illustrations were created with Procreate. Music by BenSound.com. Visit RedLotusDesignz.com to view my other work!")
 
 
 ## A short name for the game used for executables and directories in the built

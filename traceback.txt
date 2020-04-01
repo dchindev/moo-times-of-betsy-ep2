@@ -1,30 +1,50 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scene5good.rpy", line 38, in script
-    with Fade(1.0)
-TypeError: Fade() takes at least 3 arguments (3 given)
+  File "game/script.rpy", line 35, in script
+    betsy happy "There’s three things that I love more than anything in the world - my mister & missy, dairy free ice cream and shopping. "
+  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
+    _window_show()
+  File "renpy/common/000window.rpy", line 60, in _window_show
+    renpy.with_statement(trans)
+IOError: Couldn't find file 'bensound-sweet.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scene5good.rpy", line 38, in script
-    with Fade(1.0)
-  File "/Applications/renpy-7.3.5-sdk/renpy/ast.py", line 1389, in execute
-    renpy.exports.with_statement(trans, paired)
+  File "game/script.rpy", line 35, in script
+    betsy happy "There’s three things that I love more than anything in the world - my mister & missy, dairy free ice cream and shopping. "
+  File "/Applications/renpy-7.3.5-sdk/renpy/ast.py", line 671, in execute
+    statement_name("say")
+  File "/Applications/renpy-7.3.5-sdk/renpy/ast.py", line 45, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
+    _window_show()
+  File "renpy/common/000window.rpy", line 60, in _window_show
+    renpy.with_statement(trans)
   File "/Applications/renpy-7.3.5-sdk/renpy/exports.py", line 1601, in with_statement
     return renpy.game.interface.do_with(trans, paired, clear=clear)
   File "/Applications/renpy-7.3.5-sdk/renpy/display/core.py", line 2251, in do_with
     clear=clear)
   File "/Applications/renpy-7.3.5-sdk/renpy/display/core.py", line 2702, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "/Applications/renpy-7.3.5-sdk/renpy/display/core.py", line 3047, in interact_core
-    new_widget=layers_root)
-  File "/Applications/renpy-7.3.5-sdk/renpy/curry.py", line 43, in __call__
-    **dict(self.kwargs.items() + kwargs.items()))
-TypeError: Fade() takes at least 3 arguments (3 given)
+  File "/Applications/renpy-7.3.5-sdk/renpy/display/core.py", line 3380, in interact_core
+    renpy.audio.audio.periodic()
+  File "/Applications/renpy-7.3.5-sdk/renpy/audio/audio.py", line 1060, in periodic
+    six.reraise(exc[0], exc[1], exc[2])
+  File "/Applications/renpy-7.3.5-sdk/renpy/audio/audio.py", line 1038, in periodic_thread_main
+    periodic_pass()
+  File "/Applications/renpy-7.3.5-sdk/renpy/audio/audio.py", line 979, in periodic_pass
+    c.periodic()
+  File "/Applications/renpy-7.3.5-sdk/renpy/audio/audio.py", line 457, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "/Applications/renpy-7.3.5-sdk/renpy/audio/audio.py", line 73, in load
+    rv = renpy.loader.load(fn)
+  File "/Applications/renpy-7.3.5-sdk/renpy/loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'bensound-sweet.mp3'.
 
 Darwin-19.3.0-x86_64-i386-64bit
 Ren'Py 7.3.5.606
 Moo Times Of Betsy: EP2 1.0
-Tue Mar 24 20:19:57 2020
+Tue Mar 31 11:19:32 2020

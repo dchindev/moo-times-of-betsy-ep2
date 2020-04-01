@@ -44,6 +44,8 @@ evilbetsy "You may have a happy life with your owners now. But I doubt it’ll l
 scene black
 with fade
 
+stop music
+
 betsynoside "Before I can say anything, the whole room went dark without a trace of the evil version of me."
 
 betsynoside "Pretty soon, I heard Mister and Missy as they tried talking while Missy helps me in her arms."
@@ -55,6 +57,8 @@ show mister_sad
 mister "Betsy? Oh Gods and Goddesses, are you ok?"
 
 betsy sad "...Moo...Was I asleep? What happened?"
+
+play music "audio/bensound-tenderness.mp3"
 
 scene scene301
 with dissolve

@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/scene5bad.rpy", line 5: expected statement.
-    return﻿
-           ^
+File "game/options.rpy", line 33: EOL while scanning string literal
+(Perhaps you left out a " at the end of the first line.)
+    " Illustrations were created with Procreate. Music by BenSound.com
+                                                                      ^
+    
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Fri Mar 20 17:33:59 2020
+Tue Mar 31 11:18:56 2020

@@ -1,5 +1,9 @@
 label scene5good:
 
+    stop music
+
+    play music "audio/bensound-epic.mp3"
+    
     scene bedroom_orangeglow
     with dissolve
 

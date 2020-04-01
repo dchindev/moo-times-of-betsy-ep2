@@ -1,5 +1,7 @@
 ﻿label scene2:
 
+play music "audio/bensound-sunny.mp3"
+
 scene house_day
 with fade
 
@@ -58,11 +60,15 @@ betsynoside "When we got to the ice cream section, I was looking for the birthda
 
 "{i} Do they know who you really are? {/i}"
 
+stop music
+
 scene black
 
 betsynoside "Suddenly my field of vision turned dark. I can hear something laughing."
 
 betsynoside "Something like...my own laugh? That’s impossible. This one sounded more...evil."
+
+play music "audio/bensound-instinct.mp3"
 
 scene shopping_night
 with fade

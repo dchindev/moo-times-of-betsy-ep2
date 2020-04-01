@@ -19,6 +19,9 @@ label scene4:
 
     betsynoside "What will happen to them?"
 
+    scene scene400
+    with dissolve
+
     betsynoside "As I looked at the car window, I saw Mama Luna shining brightly on the night sky."
 
     betsynoside "Her rays of light warmed me up. I said a prayer to Mama Luna in hopes that she’ll guide me to the right path."
@@ -96,12 +99,16 @@ label scene4:
     scene bedroom
     with dissolve
 
+    stop music
+
     betsynoside "Suddenly, I felt the room growing warmer than usual. Was the heat turned on my accident by Mister? The weather said it would be mild in the evening."
 
     betsynoside "I held my mitten hands on my head as I felt a dizzy sensation taken over me."
 
     scene black
     with fade
+
+    play music "audio/bensound-instinct.mp3"
 
     betsynoside "I collapsed on the ground and heard the voice again. This time, it sounded more menacing than usual."
 
