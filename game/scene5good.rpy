@@ -3,7 +3,7 @@ label scene5good:
     stop music
 
     play music "audio/bensound-epic.mp3"
-    
+
     scene bedroom_orangeglow
     with dissolve
 
@@ -47,6 +47,8 @@ label scene5good:
     scene bedroom
     with fade
 
+    stop music
+
     betsynoside "I blinked once more and noticed the room was back to normal."
 
     betsynoside "It’s as if nothing happened. No ember glow. No house being burnt down. Just me and my Tower painting."
@@ -60,6 +62,8 @@ label scene5good:
     betsynoside "I looked at the painting once more and sighed. Perhaps this was the message from the tarot card."
 
     betsynoside "Things needed shaking up. And today was no exception."
+
+    play music "audio/bensound-memories.mp3"
 
     scene kitchen
     show missy_happy at center
@@ -139,5 +143,7 @@ label scene5good:
     betsynoside "I’m so glad to have my Mister and Missy. They mean the world to me. And I hope that we’ll always be like this, forever."
 
     "{b}Good Ending{/b}"
+
+    stop music
 
     return

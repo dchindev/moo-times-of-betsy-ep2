@@ -31,8 +31,8 @@ label scene5bad:
     scene badending02
     with fade
 
-    evilbetsy "FINALLY! My time has come to reign over the world"
-    evilbetsy "These poor pathetic witches didn’t stand a chance MWAHAHAHAHAHAHAHAH"
+    evilbetsy "FINALLY! My time has come to reign over the world."
+    evilbetsy "These poor pathetic witches didn’t stand a chance MWAHAHAHAHAHAHAHAH!!!"
 
     "{b}Bad Ending{/b}"
 
